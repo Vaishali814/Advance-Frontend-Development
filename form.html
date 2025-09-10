@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8" description="Student Registration Form" http-equiv="refresh">
+        <title>Student Form</title>
+    </head>
+    <body bgcolor="pink">
+            <h1 align="center">Student Registration Form</h1>
+             <form>
+<table>
+    <tr>
+        <td>First Name:</td>
+        <td><input type="text" name="fn" tabindex="2"></td>
+        <td>Last Name:</td>
+        <td><input type="text" name="ln"></td>
+    </tr>
+
+    <tr>
+        <td>Father's Name:</td>
+        <td><input type="text" name="fnn"></td>
+
+        <td>Mother's Name:</td>
+        <td><input type="text" name="mnn" tabindex="1"></td>
+    </tr>
+
+    <tr>
+        <td>Gender:</td>
+        <td><input type="radio" name="fm">Female</td>
+        <td><input type="radio" name="mm">Male</td>
+    </tr>
+
+       <tr>
+        <td>Maritial Status:</td>
+        <td><input type="radio" name="um">Unmarried</td>
+        <td><input type="radio" name="mr">Married</td>
+    </tr>
+
+    <tr>
+        <td>Religion:</td>
+        <td><input type="text" name="rel"></td>
+
+        <td>Caste:</td>
+        <td><input type="text" name="cast"></td>
+
+        <td>Category:</td>
+        <td>
+        <select>
+        <option value="">Select Category</option>
+        <option value="uc">Upper Class</option>
+        <option value="bc">Backward Class</option>
+        <option value="minority">SC/ST</option>
+        <option value="EWS">EWS</option>
+        </select>
+        </td>
+        </tr>
+
+        <tr>
+            <td>DOB:</td>
+            <td><input type="date" name="dob" required></td> 
+        </tr>
+
+        <tr>
+            <td>Phone No:</td>
+            <td><input type="tel" name="phn" placeholder="999-999-9999"required></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="email" name="email" required></td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td><input type="password" pattern="^[A-Za-z@*&!]$" name="pass" required></td>
+        </tr>
+
+<tr>
+    <td>Upload Pic:</td>
+    <td><input type="file" name="pic" ></td>
+</tr>
+<tr>
+    <td>Skills:</td>
+    <td><input type="checkbox" name="sk" >Python</td>
+     <td><input type="checkbox" name="sk" >Java</td>
+      <td><input type="checkbox" name="sk" >CSS</td>
+       <td><input type="checkbox" name="sk" >C++</td>
+</tr>
+<tr>
+    <td>Address:</td>
+    <td><textarea cols="20" rows="3"></textarea></td>
+</tr>
+<tr>
+    <td><input type="submit"  value="Register"></td>
+
+    <td><input type="reset"></td>
+
+</tr>
+</table>
+         </form>
+    </body>
+</html>
